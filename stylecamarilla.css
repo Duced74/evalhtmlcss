@@ -47,27 +47,23 @@ h1 {
 h1 {
 	color: #c9717a;
 	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
-.card {
-	width: 90%;
-	margin: auto;
-	margin-bottom: 2rem;
-	background-color: #050505;
-	border: 1px solid white;
-}
-
-.card-text,
-.card-title {
-	text-align: center;
+p,
+h2 {
 	color: #c9717a;
 }
 
-.card-img,
-.card {
-	border-radius: 20px;
+p {
+	font-size: 1.2em;
 }
 
-.card:hover {
-	border: 1px solid #c9717a;
+h2 {
+	text-decoration: underline;
+}
+
+.liencama:hover {
+	color: beige;
 }
