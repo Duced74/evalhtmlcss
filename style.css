@@ -29,6 +29,7 @@ h1 {
 
 .line {
 	border: #c9717a solid 1px;
+	margin-bottom: 5px;
 }
 
 .title {
@@ -71,3 +72,17 @@ h1 {
 .card:hover {
 	border: 1px solid #c9717a;
 }
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+
+	margin-top: 10%;
+}
+
+

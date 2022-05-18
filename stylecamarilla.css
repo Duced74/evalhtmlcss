@@ -67,3 +67,40 @@ h2 {
 .liencama:hover {
 	color: beige;
 }
+
+h1 {
+	padding: 1.5em auto 1.5em auto;
+}
+
+.jeu {
+	margin: 2em auto 1.5em auto;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+
+	margin-top: 10%;
+}
+
+.linejeu {
+	border: #c9717a solid 1px;
+}
+
+@media screen and (max-width: 720px) {
+	.masque {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.linejeu {
+		display: none;
+	}
+}
